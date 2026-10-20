@@ -1,0 +1,643 @@
+════════════════════════════════════════════════════════════════════
+        《系统规划与管理师教程（第2版）》全书英文缩写汇总
+        （英文全称 · 汉语意思 · 相关计算公式）
+════════════════════════════════════════════════════════════════════
+
+【整理说明】
+1. 本文件依据《系统规划与管理师教程（第2版）》（刘玲、张树玲主编，清华大学出版社，
+   2025年1月，ISBN 978-7-302-67091-9，全书799页PDF）全文提取整理。
+2. 原书为扫描OCR版，个别英文单词存在识别错误（如 Access→Aces、
+   Application→Alication、Interface→lnferface、Business→Busines 等），
+   本表已按标准术语予以校正。
+3. 汇总格式：缩写 ｜ 英文全称 ｜ 汉语意思（教材语境含义）。
+4. 标注说明：★＝考试高频重点缩写；公式详见文末"第三部分：涉及计算公式的缩写"。
+5. 建议复习顺序：先背"第一部分重点速览"，再按分类记忆，最后重点掌握公式部分。
+
+────────────────────────────────────────────────────────────────────
+第一部分　重点缩写速览（高频考点 TOP 50）
+────────────────────────────────────────────────────────────────────
+★ ITIL ｜ Information Technology Infrastructure Library ｜ IT基础架构库（英国OGC发布的IT服务管理最佳实践框架，经历v1~v4四个主要版本）
+★ ITSS ｜ Information Technology Service Standards ｜ 我国信息技术服务标准体系（工信部+国家标准化管理委员会联合指导研制；生命周期含PIOIS五阶段）
+★ ITSM ｜ IT Service Management ｜ IT服务管理（面向过程、以客户为中心的管理方法和规范）
+★ SLA  ｜ Service Level Agreement ｜ 服务级别协议（服务供需双方就服务质量、等级达成的协议）
+★ OLA  ｜ Operational Level Agreement ｜ 运营级别协议（服务供方内部各部门之间的协作协议）
+★ UC   ｜ Underpinning Contract ｜ 支持合同（服务供需双方签订的具备法律效力的正式合同）
+★ KPI  ｜ Key Performance Indicator ｜ 关键绩效指标（如工程师工单量、平均响应时间、平均解决时间等）
+★ CSF  ｜ Critical Success Factors ｜ 关键成功因素法（哈佛William Zani提出，用于信息系统规划）
+★ SST  ｜ Strategy Set Transformation ｜ 战略目标集转移法（信息系统规划方法）
+★ BSP  ｜ Business System Planning ｜ 企业系统规划法（IBM提出，U/C矩阵）
+★ VCA  ｜ Value Chain Analysis ｜ 价值链分析法（迈克尔·波特价值链）
+★ MTBF ｜ Mean Time Between Failure ｜ 平均无故障时间（可靠性指标，公式见第三部分）
+★ MTTR ｜ Mean Time To Repair ｜ 平均故障修复时间/平均恢复时间（易恢复性指标，公式见第三部分）
+★ MTBSI｜ Mean Time Between System Incidents ｜ 平均故障间隔（＝MTBF＋MTTR）
+★ ROI  ｜ Return On Investment ｜ 投资回报率（公式见第三部分）
+★ PUE  ｜ Power Usage Effectiveness ｜ 电源使用效率（数据中心能效指标，公式见第三部分）
+★ OEE  ｜ Overall Equipment Effectiveness ｜ 设备综合效率（公式见第三部分）
+★ COBIT｜ Control Objectives for Information and Related Technology ｜ 信息及相关技术控制目标（ISACA编制的信息和技术治理框架）
+★ PDCA ｜ Plan-Do-Check-Act ｜ 计划-实施-检查-改进循环（戴明环，标准化管理/持续改进）
+★ TOGAF｜ The Open Group Architecture Framework ｜ 开放组架构框架（企业架构框架，核心为ADM）
+★ ADM  ｜ Architecture Development Method ｜ 架构开发方法（TOGAF的核心，分步开发企业架构）
+★ SOA  ｜ Service-Oriented Architecture ｜ 面向服务的架构
+★ SDN  ｜ Software Defined Network ｜ 软件定义网络
+★ IaaS ｜ Infrastructure as a Service ｜ 基础设施即服务
+★ PaaS ｜ Platform as a Service ｜ 平台即服务
+★ SaaS ｜ Software as a Service ｜ 软件即服务
+★ DevOps ｜ Development and Operations ｜ 开发运维一体化
+★ ERP  ｜ Enterprise Resource Planning ｜ 企业资源计划（书中译"企业资源管理计划"）
+★ MES  ｜ Manufacturing Execution System ｜ 制造执行系统
+★ CRM  ｜ Customer Relationship Management ｜ 客户关系管理
+★ SCM  ｜ Supply Chain Management ｜ 供应链管理
+★ OA   ｜ Office Automation ｜ 办公自动化
+★ MIS  ｜ Management Information System ｜ 管理信息系统
+★ OSI  ｜ Open System Interconnection ｜ 开放系统互连（参考模型OSI/RM七层）
+★ TCP/IP ｜ Transmission Control Protocol/Internet Protocol ｜ 传输控制协议/因特网互联协议（四层：网络接口层、网际层、传输层、应用层）
+★ VLAN ｜ Virtual Local Area Network ｜ 虚拟局域网
+★ VPN  ｜ Virtual Private Network ｜ 虚拟专用网络
+★ DNS  ｜ Domain Name System ｜ 域名解析系统
+★ DHCP ｜ Dynamic Host Configuration Protocol ｜ 动态主机配置协议
+★ CMDB ｜ Configuration Management Database ｜ 配置管理数据库
+★ CI   ｜ Configuration Item ｜ 配置项（ITSM配置管理基本单元）
+★ SOP  ｜ Standard Operating Procedure ｜ 标准作业程序（标准操作规范）
+★ WBS  ｜ Work Breakdown Structure ｜ 工作分解结构（项目管理）
+★ PMO  ｜ Project Management Office ｜ 项目管理办公室
+★ PMBOK｜ A Guide to the Project Management Body of Knowledge ｜ 项目管理知识体系指南（美国PMI发布）
+★ PERT ｜ Program Evaluation and Review Technique ｜ 计划评审技术（PERT图表示进度）
+★ CAP  ｜ Consistency, Availability, Partition Tolerance ｜ 一致性、可用性、分区容错性（分布式系统CAP定理：只能三选二）
+★ ACID ｜ Atomicity, Consistency, Isolation, Durability ｜ 原子性、一致性、隔离性、持久性（事务特性）
+★ PKI  ｜ Public Key Infrastructure ｜ 公钥基础设施
+★ IDS/IPS ｜ Intrusion Detection System / Intrusion Prevention System ｜ 入侵检测系统/入侵防御系统
+★ SOC  ｜ Security Operations Center ｜ 安全运营中心
+★ ISO  ｜ International Organization for Standardization ｜ 国际标准化组织
+★ IEC  ｜ International Electrotechnical Commission ｜ 国际电工委员会
+★ IEEE ｜ Institute of Electrical and Electronics Engineers ｜ 电气与电子工程师学会
+★ ITU  ｜ International Telecommunication Union ｜ 国际电信联盟（定义5G三大应用场景）
+
+────────────────────────────────────────────────────────────────────
+第二部分　分类明细表
+────────────────────────────────────────────────────────────────────
+
+【一、信息技术基础与新一代信息技术】
+
+IT  ｜ Information Technology ｜ 信息技术
+ICT ｜ Information and Communication Technology ｜ 信息与通信技术
+IS  ｜ Information System ｜ 信息系统
+AI  ｜ Artificial Intelligence ｜ 人工智能
+ML  ｜ Machine Learning ｜ 机器学习
+DL  ｜ Deep Learning ｜ 深度学习
+NLP ｜ Natural Language Processing ｜ 自然语言处理
+CV  ｜ Computer Vision ｜ 计算机视觉
+OCR ｜ Optical Character Recognition ｜ 光学字符识别
+IoT ｜ Internet of Things ｜ 物联网
+NB-IoT ｜ Narrow Band Internet of Things ｜ 窄带物联网
+T2T ｜ Thing to Thing ｜ 物与物（通信/互联网形态）
+CPS ｜ Cyber-Physical Systems ｜ 信息物理系统（数字孪生相关技术）
+VR  ｜ Virtual Reality ｜ 虚拟现实
+AR  ｜ Augmented Reality ｜ 增强现实
+XR  ｜ Extended Reality ｜ 扩展现实（VR/AR/MR等技术的统称，书中"拓展现实"）
+RPA ｜ Robotic Process Automation ｜ 机器人流程自动化
+AIOps ｜ Artificial Intelligence for IT Operations ｜ 智能运维（将人工智能用于IT运维）
+GIS ｜ Geographic Information System ｜ 地理信息系统
+GPS ｜ Global Positioning System ｜ 全球定位系统
+MEMS ｜ Micro-Electro-Mechanical System ｜ 微机电系统
+RFID ｜ Radio Frequency Identification ｜ 射频识别
+AGV ｜ Automated Guided Vehicle ｜ 自动导引运输车
+BIM ｜ Building Information Modeling ｜ 建筑信息模型
+4G/5G ｜ the 4th/5th Generation mobile communication ｜ 第4代/第5代移动通信系统
+eMBB ｜ Enhanced Mobile Broadband ｜ 增强移动宽带（5G场景）
+uRLLC｜ Ultra Reliable Low Latency Communication ｜ 超高可靠低时延通信（5G场景）
+mMTC ｜ Massive Machine Type Communication ｜ 海量机器类通信（5G场景）
+MIMO ｜ Multiple-Input Multiple-Output ｜ 多输入多输出（大规模天线技术）
+OFDM ｜ Orthogonal Frequency Division Multiplexing ｜ 正交频分复用
+OFDMA ｜ Orthogonal Frequency Division Multiple Access ｜ 正交频分多址
+LDPC ｜ Low Density Parity Check ｜ 低密度奇偶校验码（5G信道编码，稀疏校验矩阵分组纠错码）
+IMT  ｜ International Mobile Telecommunications ｜ 国际移动通信（IMT-2020即5G）
+PoW  ｜ Proof of Work ｜ 工作量证明（区块链共识机制）
+PoS  ｜ Proof of Stake ｜ 权益证明（区块链共识机制）
+DPoS ｜ Delegated Proof of Stake ｜ 委托权益证明（区块链共识机制）
+PBFT ｜ Practical Byzantine Fault Tolerance ｜ 实用拜占庭容错（区块链共识机制）
+MBSE ｜ Model-Based Systems Engineering ｜ 基于模型的系统工程
+PLM  ｜ Product Lifecycle Management ｜ 产品生命周期管理（数字孪生发源领域）
+DoS  ｜ Denial of Service ｜ 拒绝服务（攻击）
+DDoS ｜ Distributed Denial of Service ｜ 分布式拒绝服务（攻击）
+
+【二、信息系统与企业管理软件】
+
+MIS ｜ Management Information System ｜ 管理信息系统
+DSS ｜ Decision Support System ｜ 决策支持系统
+OA  ｜ Office Automation ｜ 办公自动化
+ERP ｜ Enterprise Resource Planning ｜ 企业资源计划
+MRP ｜ Manufacturing Resource Planning ｜ 制造资源计划（MRPⅡ）
+MES ｜ Manufacturing Execution System ｜ 制造执行系统
+MOM ｜ Manufacturing Operation Management ｜ 制造运营管理
+SCM ｜ Supply Chain Management ｜ 供应链管理
+CRM ｜ Customer Relationship Management ｜ 客户关系管理
+SRM ｜ Supplier Relationship Management ｜ 供应商关系管理
+APS ｜ Advanced Planning and Scheduling ｜ 高级计划与排程
+WMS ｜ Warehouse Management System ｜ 仓储管理系统
+WCS ｜ Warehouse Control System ｜ 立体仓库（仓库）控制系统
+TMS ｜ Transportation Management System ｜ 运输管理系统
+PDM ｜ Product Data Management ｜ 产品数据管理
+PLM ｜ Product Lifecycle Management ｜ 产品生命周期管理
+CIMS ｜ Computer Integrated Manufacturing System ｜ 计算机集成制造系统
+QMS ｜ Quality Management System ｜ 质量管理系统/质量管理体系
+ESB ｜ Enterprise Service Bus ｜ 企业服务总线（信息系统总体框架"感、传、智、用、安"中的服务总线）
+EAI ｜ Enterprise Application Integration ｜ 企业应用集成
+BPR ｜ Business Process Reengineering ｜ 业务流程重组
+BI  ｜ Business Intelligence ｜ 商业智能（商务智能）
+VOD ｜ Video on Demand ｜ 视频点播
+WWW ｜ World Wide Web ｜ 万维网
+CIO ｜ Chief Information Officer ｜ 首席信息官
+HMI ｜ Human Machine Interface ｜ 人机界面（接口）
+LIMS ｜ Laboratory Information Management System ｜ 实验室信息管理系统
+
+【三、信息系统规划方法与企业架构】
+
+SST ｜ Strategy Set Transformation ｜ 战略目标集转移法（William King提出）
+BSP ｜ Business System Planning ｜ 企业系统规划法（IBM，自上而下识别数据类、子系统，U/C矩阵）
+CSF ｜ Critical Success Factors ｜ 关键成功因素法（哈佛William Zani 1970年提出，MIT的John Rochart发展）
+VCA ｜ Value Chain Analysis ｜ 价值链分析法
+APA ｜ Application Portfolio Approach ｜ 应用系统组合法（评估和管理组织应用系统组合）
+TOGAF｜ The Open Group Architecture Framework ｜ 开放组架构框架（TOGAF 9含6个组件，内部使用免费）
+ADM ｜ Architecture Development Method ｜ 架构开发方法（TOGAF核心，开发企业架构的分步方法）
+Zachman ｜ （人名框架，非缩写）｜ Zachman框架（经典企业架构框架）
+SABSA｜ Sherwood Applied Business Security Architecture ｜ 舍伍德应用业务安全架构（六层模型：情境/概念/逻辑/物理/组件/安全服务管理架构）
+SOA ｜ Service-Oriented Architecture ｜ 面向服务的架构
+EDA ｜ Event Driven Architecture ｜ 事件驱动架构
+DDD ｜ Domain Driven Design ｜ 领域驱动设计
+CQRS ｜ Command Query Responsibility Segregation ｜ 命令查询职责分离
+CAP ｜ Consistency, Availability, Partition Tolerance ｜ 一致性/可用性/分区容错性定理（要么AP、要么CP、要么CA，不存在CAP三者兼得）
+BASE｜ Basically Available, Soft state, Eventually consistent ｜ 基本可用、软状态、最终一致性（CAP的实践补充）
+ACID ｜ Atomicity, Consistency, Isolation, Durability ｜ 原子性、一致性、隔离性、持久性（数据库事务四特性）
+TCC ｜ Try-Confirm-Cancel ｜ 尝试-确认-取消（分布式事务模式）
+IoC ｜ Inversion of Control ｜ 控制反转
+NFV ｜ Network Functions Virtualization ｜ 网络功能虚拟化
+CDPI ｜ Control Data Plane Interface ｜ 控制数据平面接口（SDN南向接口）
+SDN ｜ Software Defined Network ｜ 软件定义网络
+SWOT ｜ Strengths, Weaknesses, Opportunities, Threats ｜ 态势分析法（优势/劣势/机会/威胁，IT审计风险识别技术之一）
+SMART ｜ Specific, Measurable, Attainable, Relevant, Time-based ｜ 效率管理模型原则（目标管理：具体、可衡量、可达到、相关性、时限性）
+BSC ｜ Balanced Scorecard ｜ 平衡计分卡（教材：将组织战略目标按平衡计分卡从4个维度分解）
+
+【四、软件工程与研发运维（DevOps）】
+
+CASE ｜ Computer Aided Software Engineering ｜ 计算机辅助软件工程
+UML ｜ Unified Modeling Language ｜ 统一建模语言
+IDE  ｜ Integrated Development Environment ｜ 集成开发环境
+PDE ｜ Plug-in Development Environment ｜ 插件开发环境
+SDK ｜ Software Development Kit ｜ 软件开发工具包
+API  ｜ Application Programming Interface ｜ 应用程序编程接口
+UI  ｜ User Interface ｜ 用户界面
+UX  ｜ User Experience ｜ 用户体验
+GUI ｜ Graphical User Interface ｜ 图形用户界面
+HTML ｜ HyperText Markup Language ｜ 超文本标记语言
+XML ｜ eXtensible Markup Language ｜ 可扩展标记语言（含XML DTD、XML Schema、RDF描述元数据）
+SQL ｜ Structured Query Language ｜ 结构化查询语言
+NoSQL ｜ Not Only SQL ｜ 非关系型数据库
+DSL ｜ Domain Specific Language ｜ 领域专用语言（教材出现"动态脚本语言"语境）
+OOP ｜ Object Oriented Programming ｜ 面向对象程序设计
+AOP ｜ Aspect Oriented Programming ｜ 面向切面编程
+TDD ｜ Test Driven Development ｜ 测试驱动开发
+CI  ｜ Continuous Integration ｜ 持续集成
+CD  ｜ Continuous Delivery / Continuous Deployment ｜ 持续交付/持续部署（CI/CD流水线）
+DoD ｜ Definition of Done ｜ 完成的定义（敏捷）
+WIP ｜ Work In Progress ｜ 在制品（Kanban在制品限制WIP Limit）
+Scrum ｜ （敏捷方法名，非严格缩写）｜ 斯克兰敏捷开发框架（迭代、自组织）
+Kanban ｜ （敏捷方法名，源自日语"看板"）｜ 看板方法
+SOAP ｜ Simple Object Access Protocol ｜ 简单对象访问协议（Web服务）
+WSDL ｜ Web Services Description Language ｜ Web服务描述语言
+UDDI ｜ Universal Description, Discovery and Integration ｜ 统一描述、发现和集成
+REST ｜ Representational State Transfer ｜ 表述性状态转移（RESTful风格架构）
+MVC ｜ Model-View-Controller ｜ 模型-视图-控制器
+CORBA ｜ Common Object Request Broker Architecture ｜ 公共对象请求代理体系结构（OMG制定）
+OMG ｜ Object Management Group ｜ 对象管理组织（集团）
+DCOM ｜ Distributed Component Object Model ｜ 分布式组件对象模型（微软）
+EJB ｜ Enterprise JavaBeans ｜ 企业级Java组件（Sun）
+J2EE ｜ Java 2 Platform Enterprise Edition ｜ Java2平台企业版
+RPC ｜ Remote Procedure Call ｜ 远程过程调用
+MOM ｜ Message-Oriented Middleware ｜ 面向消息的中间件
+MQ  ｜ Message Queue ｜ 消息队列
+SAGA ｜ （分布式长事务模式名）｜ SAGA模式（长事务拆分为本地事务序列）
+SVN ｜ Subversion ｜ 版本控制工具
+VSTS ｜ Visual Studio Team Services ｜ 微软代码管理服务
+UFT ｜ Unified Functional Testing ｜ 统一功能测试（自动化测试工具）
+QTP ｜ QuickTest Professional ｜ 快速测试专业版（HP自动化测试工具，UFT前身）
+GitOps ｜ Git + Operations ｜ 基于Git的运维模式
+ChatOps ｜ Chat + Operations ｜ 对话式运维协作模式
+
+【五、计算机网络与通信技术】
+
+LAN ｜ Local Area Network ｜ 局域网
+MAN ｜ Metropolitan Area Network ｜ 城域网
+WAN ｜ Wide Area Network ｜ 广域网
+PAN ｜ Personal Area Network ｜ 个人区域网
+OSI/RM ｜ Open System Interconnection Reference Model ｜ 开放系统互连参考模型（七层：物理层、数据链路层、网络层、传输层、会话层、表示层、应用层）
+TCP ｜ Transmission Control Protocol ｜ 传输控制协议
+IP  ｜ Internet Protocol ｜ 因特网协议（互联网协议；IPv4为32位地址，IPv6为128位地址）
+UDP ｜ User Datagram Protocol ｜ 用户数据报协议
+ARP ｜ Address Resolution Protocol ｜ 地址解析协议（IP地址→MAC地址）
+RARP ｜ Reverse Address Resolution Protocol ｜ 反向地址解析协议（MAC地址→IP地址）
+ICMP ｜ Internet Control Message Protocol ｜ 因特网控制报文协议
+IGMP ｜ Internet Group Management Protocol ｜ 因特网组管理协议（组播）
+DNS ｜ Domain Name System ｜ 域名系统（域名解析系统）
+DHCP ｜ Dynamic Host Configuration Protocol ｜ 动态主机配置协议
+HTTP ｜ HyperText Transfer Protocol ｜ 超文本传送协议
+SMTP ｜ Simple Mail Transfer Protocol ｜ 简单邮件传输协议（电子邮件传输协议）
+NNTP ｜ Network News Transfer Protocol ｜ 网络新闻传输协议
+FTP ｜ File Transfer Protocol ｜ 文件传输协议
+TFTP ｜ Trivial File Transfer Protocol ｜ 简单文件传输协议
+Telnet ｜ Teletype Network ｜ 远程登录（虚拟终端）协议
+NFS ｜ Network File System ｜ 网络文件系统
+SNMP ｜ Simple Network Management Protocol ｜ 简单网络管理协议
+MIB ｜ Management Information Base ｜ 管理信息库
+VLAN ｜ Virtual Local Area Network ｜ 虚拟局域网
+STP ｜ Spanning Tree Protocol ｜ 生成树协议
+RIP ｜ Routing Information Protocol ｜ 路由信息协议（距离向量）
+OSPF ｜ Open Shortest Path First ｜ 开放最短路径优先（链路状态）
+BGP ｜ Border Gateway Protocol ｜ 边界网关协议
+RSVP ｜ Resource ReSerVation Protocol ｜ 资源预留协议
+MPLS ｜ Multi-Protocol Label Switching ｜ 多协议标记交换
+LDP ｜ Label Distribution Protocol ｜ 标记分发协议
+LER ｜ Label Edge Router ｜ 标记边缘路由器
+LSR ｜ Label Switching Router ｜ 标记交换路由器
+VPN ｜ Virtual Private Network ｜ 虚拟专用网络
+GRE ｜ Generic Routing Encapsulation ｜ 通用路由封装（隧道协议）
+PTP ｜ Point-to-Point Tunneling Protocol ｜ 点对点隧道协议（PPTP的书中OCR写法）
+GTP ｜ GPRS Tunneling Protocol ｜ GPRS隧道协议
+NAT ｜ Network Address Translation ｜ 网络地址转换
+QoS ｜ Quality of Service ｜ 服务质量
+CoS ｜ Class of Service ｜ 服务类别
+MAC ｜ Media Access Control ｜ 介质访问控制（MAC地址/物理地址）
+TTL ｜ Time To Live ｜ 生存时间（IP分组跳数限制，防环路）
+SYN ｜ Synchronize ｜ 同步标志位（TCP三次握手建立连接）
+ACK ｜ Acknowledgement ｜ 确认标志位/确认字符
+SSID ｜ Service Set Identifier ｜ 服务集标识符（无线网络名称）
+FDDI ｜ Fiber Distributed Data Interface ｜ 光纤分布式数据接口
+PPP ｜ Point-to-Point Protocol ｜ 点对点协议
+SLIP ｜ Serial Line Internet Protocol ｜ 串行线路网际协议
+IPX ｜ Internetwork Packet Exchange ｜ 网际包交换协议
+IMP ｜ Interface Message Processor ｜ 接口报文处理机（ARPANET历史）
+GW ｜ Gateway ｜ 网关
+CDN ｜ Content Delivery Network ｜ 内容分发网络
+IDC ｜ Internet Data Center ｜ 互联网数据中心
+SLB ｜ Server Load Balancing ｜ 服务器负载均衡
+VxLAN ｜ Virtual eXtensible Local Area Network ｜ 虚拟可扩展局域网
+
+【六、移动通信（2G~5G）核心网与接入网】
+
+GSM ｜ Global System for Mobile Communications ｜ 全球移动通信系统
+GPRS ｜ General Packet Radio Service ｜ 通用分组无线业务（服务）
+CDMA ｜ Code Division Multiple Access ｜ 码分多址
+SCDMA ｜ Synchronous CDMA ｜ 同步码分多址
+LTE ｜ Long Term Evolution ｜ 长期演进（4G核心技术）
+EPC ｜ Evolved Packet Core ｜ 演进的分组核心网（4G核心网）
+MME ｜ Mobility Management Entity ｜ 移动性管理实体
+HSS ｜ Home Subscriber Server ｜ 归属用户服务器（归属签约用户服务器）
+SGSN ｜ Serving GPRS Support Node ｜ 服务GPRS支持节点
+GGSN ｜ Gateway GPRS Support Node ｜ 网关GPRS支持节点（书中GSN为OCR缺字）
+UTRAN ｜ UMTS Terrestrial Radio Access Network ｜ UMTS陆地无线接入网
+IMS ｜ IP Multimedia Subsystem ｜ IP多媒体子系统
+—— 5G核心网网元（SBA服务化架构）——
+NF  ｜ Network Function ｜ 网络功能
+AMF ｜ Access and Mobility Management Function ｜ 接入和移动性管理功能
+SMF ｜ Session Management Function ｜ 会话管理功能
+UPF ｜ User Plane Function ｜ 用户面功能
+UDM ｜ Unified Data Management ｜ 统一数据管理
+AUSF ｜ Authentication Server Function ｜ 鉴权服务功能（认证服务器功能）
+PCF ｜ Policy Control Function ｜ 策略控制功能
+NEF ｜ Network Exposure Function ｜ 网络开放功能
+NRF ｜ Network Repository Function ｜ 网络存储库功能
+NSSF ｜ Network Slice Selection Function ｜ 网络切片选择功能
+AF  ｜ Application Function ｜ 应用功能
+AN ｜ Access Network ｜ 接入网
+AP ｜ Access Point ｜ 无线接入点（访问点）
+AC ｜ Access Controller ｜ 接入控制器（无线）
+UE ｜ User Equipment ｜ 用户设备（终端）
+DN ｜ Data Network ｜ 数据网络
+
+【七、传输网、接入网、存储与数据中心】
+
+SDH ｜ Synchronous Digital Hierarchy ｜ 同步数字系列
+PDH ｜ Plesiochronous Digital Hierarchy ｜ 准同步数字系列
+DWDM ｜ Dense Wavelength Division Multiplexing ｜ 密集波分复用
+OAN ｜ Optical Access Network ｜ 光接入网
+PON ｜ Passive Optical Network ｜ 无源光网络
+EPON ｜ Ethernet Passive Optical Network ｜ 以太网无源光网络
+GPON ｜ Gigabit Passive Optical Network ｜ 千兆无源光网络
+OLT ｜ Optical Line Terminal ｜ 光线路终端（光纤线路终端）
+ADSL ｜ Asymmetric Digital Subscriber Line ｜ 非对称数字用户线
+HDSL ｜ High-speed Digital Subscriber Line ｜ 高速数字用户线
+HFC ｜ Hybrid Fiber-Coaxial ｜ 光纤同轴混合网（有线电视网）
+DDN ｜ Digital Data Network ｜ 数字数据网
+ISDN ｜ Integrated Services Digital Network ｜ 综合业务数字网
+ATM ｜ Asynchronous Transfer Mode ｜ 异步传输模式（信元交换）
+FR ｜ Frame Relay ｜ 帧中继
+PSTN ｜ Public Switched Telephone Network ｜ 公用电话交换网
+VSAT ｜ Very Small Aperture Terminal ｜ 甚小口径卫星终端
+DAS ｜ Direct Attached Storage ｜ 直接附加存储（直连式存储）
+NAS ｜ Network Attached Storage ｜ 网络接入存储（网络附加存储）
+SAN ｜ Storage Area Network ｜ 存储区域网络
+RAID ｜ Redundant Array of Independent Disks ｜ 独立磁盘冗余阵列（磁盘阵列）
+JBOD ｜ Just a Bunch Of Disks ｜ 磁盘簇（捆绑磁盘，无冗余功能）
+SSD ｜ Solid State Drive ｜ 固态硬盘
+SCSI ｜ Small Computer System Interface ｜ 小型计算机系统接口
+SATA ｜ Serial Advanced Technology Attachment ｜ 串行硬盘接口
+iSCSI ｜ Internet Small Computer System Interface ｜ 因特网小型计算机系统接口
+FC ｜ Fibre Channel ｜ 光纤通道
+IB ｜ InfiniBand ｜ 无限带宽（高速互联网络）
+NVMe ｜ Non-Volatile Memory express ｜ 非易失性内存主机控制器接口协议
+CIFS ｜ Common Internet File System ｜ 通用因特网文件系统
+HDFS ｜ Hadoop Distributed File System ｜ Hadoop分布式文件系统
+GFS ｜ Google File System ｜ 谷歌文件系统
+S3 ｜ Simple Storage Service ｜ 简单存储服务（Amazon对象存储服务）
+CDC ｜ Cloud Computing Data Center ｜ 云计算数据中心
+PUE ｜ Power Usage Effectiveness ｜ 电源使用效率（数据中心能效指标，公式见第三部分）
+AZ ｜ Availability Zones ｜ 可用区
+HPC ｜ High Performance Computing ｜ 高性能计算
+
+【八、云计算与云原生】
+
+IaaS ｜ Infrastructure as a Service ｜ 基础设施即服务
+PaaS ｜ Platform as a Service ｜ 平台即服务
+SaaS ｜ Software as a Service ｜ 软件即服务
+DaaS ｜ Data as a Service ｜ 数据即服务
+FaaS ｜ Function as a Service ｜ 函数即服务
+XaaS/EaS ｜ Everything as a Service（X as a Service）｜ 一切皆服务
+VM ｜ Virtual Machine ｜ 虚拟机
+VMM ｜ Virtual Machine Monitor ｜ 虚拟机监视器
+ECS ｜ Elastic Compute Service ｜ 弹性计算服务（云服务器）
+ACK ｜ (阿里云)容器服务Kubernetes ｜ 云厂商托管版容器服务
+CNCF ｜ Cloud Native Computing Foundation ｜ 云原生计算基金会
+K8s ｜ Kubernetes（K与s之间8个字母的简写）｜ 容器编排系统
+DevSecOps ｜ Development Security Operations ｜ 开发安全运维一体化
+OAM ｜ Open Application Model ｜ 开放应用模型
+
+【九、数据库与数据管理】
+
+DB  ｜ Database ｜ 数据库
+DBMS ｜ Database Management System ｜ 数据库管理系统
+RDBMS ｜ Relational Database Management System ｜ 关系数据库管理系统
+OLTP ｜ OnLine Transaction Processing ｜ 联机事务处理
+OLAP ｜ OnLine Analytical Processing ｜ 联机分析处理
+ROLAP ｜ Relational OLAP ｜ 基于关系数据库的OLAP
+MOLAP ｜ Multidimensional OLAP ｜ 基于多维数据组织的OLAP
+HOLAP ｜ Hybrid OLAP ｜ 基于混合数据组织的OLAP
+ETL ｜ Extract-Transform-Load ｜ 数据的提取、转换和加载
+CDM ｜ Common Data Model ｜ 公共数据模型（数据中台语境）
+DAMA ｜ Data Management Association ｜ 国际数据管理协会
+PK  ｜ Primary Key ｜ 主键（数据库）
+
+【十、信息安全】
+
+PKI ｜ Public Key Infrastructure ｜ 公钥基础设施
+PMI ｜ Privilege Management Infrastructure ｜ 权限管理基础设施（授权管理体系；注意与项目管理协会PMI区分）
+CA ｜ Certificate Authority ｜ 数字证书认证机构（认证中心）
+DES ｜ Data Encryption Standard ｜ 数据加密标准（对称加密算法）
+AES ｜ Advanced Encryption Standard ｜ 高级加密标准（对称加密算法）
+RSA ｜ Rivest-Shamir-Adleman ｜ RSA非对称加密算法（以三位发明者姓氏首字母命名）
+MD5 ｜ Message Digest Algorithm 5 ｜ 消息摘要算法5（散列/哈希算法）
+SHA ｜ Secure Hash Algorithm ｜ 安全散列算法（区块链主要使用SHA256）
+SM3 ｜ （国密标准第3号）｜ 中国密码管理局散列算法标准（SM系列密码算法）
+IPSec ｜ Internet Protocol Security ｜ 因特网协议安全（网络层安全协议族）
+DAC ｜ Discretionary Access Control ｜ 自主访问控制
+MAC ｜ Mandatory Access Control ｜ 强制访问控制（安全语境；与网络MAC地址区分）
+IDS ｜ Intrusion Detection System ｜ 入侵检测系统
+IPS ｜ Intrusion Prevention System ｜ 入侵防御系统
+SOC ｜ Security Operations Center ｜ 安全运营中心
+UEBA ｜ User and Entity Behavior Analytics ｜ 用户和实体行为分析
+VIEID ｜ Virtual Identity Electronic Identification ｜ 虚拟身份电子标识
+ISMS ｜ Information Security Management System ｜ 信息安全管理体系
+SABSA ｜ Sherwood Applied Business Security Architecture ｜ 舍伍德应用业务安全架构
+CISO ｜ Chief Information Security Officer ｜ 首席信息安全官
+CISSP ｜ Certified Information Systems Security Professional ｜ 国际注册信息系统安全专家认证
+SOX ｜ Sarbanes-Oxley Act ｜ 萨班斯-奥克斯利法案（美国上市公司内控法案）
+EGIT ｜ Enterprise Governance of Information and Technology ｜ 信息和技术治理（企业IT治理）
+
+【十一、IT服务管理（ITIL/ITSS，考试重中之重）】
+
+ITIL ｜ Information Technology Infrastructure Library ｜ IT基础架构库（从IT管理活动中梳理最佳实践：事件管理、问题管理、变更管理、配置管理、服务水平管理、可用性管理等；v1职能型→v2流程型→v3服务生命周期→v4）
+ITSS ｜ Information Technology Service Standards ｜ 我国信息技术服务标准库（全面规范信息技术服务产品及组成要素）
+ITSM ｜ IT Service Management ｜ IT服务管理（一套面向过程、以客户为中心的管理方法和规范）
+PIOIS ｜ Planning&Designing, Implementing, Operation, Improvement, Supervision ｜ ITSS的IT服务生命周期五阶段：规划设计、部署实施、服务运营、持续改进、监督管理
+SLA ｜ Service Level Agreement ｜ 服务级别协议（供需双方就服务级别达成的正式协议）
+OLA ｜ Operational Level Agreement ｜ 运营级别协议（供方内部支持链各环节的具体目标）
+UC  ｜ Underpinning Contract ｜ 支持合同（正规的、具备法律效力的协议，UC=SLA内容+法律责任权利义务）
+SLM ｜ Service Level Management ｜ 服务级别管理
+KPI ｜ Key Performance Indicator ｜ 关键绩效指标
+SLO ｜ Service Level Objective ｜ 服务等级目标
+SOP ｜ Standard Operating Procedure ｜ 标准作业程序
+CMDB ｜ Configuration Management Database ｜ 配置管理数据库
+CI  ｜ Configuration Item ｜ 配置项
+BPO ｜ Business Process Outsourcing ｜ 业务流程外包
+ITO ｜ IT Outsourcing ｜ IT外包（信息技术外包）
+MTBF ｜ Mean Time Between Failure ｜ 平均无故障时间（可靠性指标，公式见第三部分）
+MTTR ｜ Mean Time To Repair ｜ 平均故障修复时间（＝检测时间＋解决时间，公式见第三部分）
+MTBSI ｜ Mean Time Between System Incidents ｜ 平均故障间隔（公式见第三部分）
+APM ｜ Application Performance Monitor ｜ 应用性能监控（管理）
+OIT ｜ （IT外包语境）｜ IT外包服务相关缩写
+
+【十二、项目管理与财务度量】
+
+PMI ｜ Project Management Institute ｜ （美国）项目管理协会（发布PMBOK；注意与权限管理基础设施PMI区分）
+PMBOK ｜ A Guide to the Project Management Body of Knowledge ｜ 项目管理知识体系指南
+PMO ｜ Project Management Office ｜ 项目管理办公室
+WBS ｜ Work Breakdown Structure ｜ 工作分解结构
+PERT ｜ Program Evaluation and Review Technique ｜ 计划评审技术（PERT图表示进度，与甘特图并列）
+EPS ｜ Enterprise Project Structure ｜ 企业项目分解结构
+OBS ｜ Organizational Breakdown Structure ｜ 组织分解结构
+RBS ｜ Risk Breakdown Structure ｜ 风险分解结构
+CBS ｜ Cost Breakdown Structure ｜ 成本分解结构
+ROI ｜ Return On Investment ｜ 投资回报率（公式见第三部分）
+NPV ｜ Net Present Value ｜ 净现值（公式见第三部分）
+IRR ｜ Internal Rate of Return ｜ 内部报酬率（公式见第三部分）
+PBP ｜ Pay Back Period ｜ 投资回收期（公式见第三部分）
+BCR ｜ Benefit Cost Ratio ｜ 效益成本比率（公式见第三部分）
+
+【十三、智能制造与工业互联网】
+
+CAD ｜ Computer Aided Design ｜ 计算机辅助设计
+CAE ｜ Computer Aided Engineering ｜ 计算机辅助工程
+CAM ｜ Computer Aided Manufacturing ｜ 计算机辅助制造
+CAPP ｜ Computer Aided Process Planning ｜ 计算机辅助工艺过程设计（书中亦作CAP）
+CAT/CAAT ｜ Computer Aided (Assisted) Audit Tools/Test ｜ 计算机辅助审计工具（IT审计常用技术之一）
+CMMM ｜ Capability Maturity Model Manufacture ｜ 智能制造能力成熟度模型（书中亦简作CM）
+PLC ｜ Programmable Logic Controller ｜ 可编程逻辑控制器
+DCS ｜ Distributed Control System ｜ 分布式控制系统
+DDC ｜ Direct Digital Control ｜ 直接数字控制（书中简作DC）
+SCADA ｜ Supervisory Control And Data Acquisition ｜ 数据采集与监视控制系统
+TSN ｜ Time Sensitive Networking ｜ 时间敏感网络
+OPC ｜ OLE for Process Control ｜ 用于过程控制的对象链接与嵌入（工业数据交换接口标准）
+WSN ｜ Wireless Sensor Network ｜ 无线传感器网络
+CAN ｜ Controller Area Network ｜ 控制器局域网（现场总线）
+MODBUS ｜ （施耐德Modicon总线协议名）｜ MODBUS工业通信协议
+RS232/RS485 ｜ Recommended Standard 232/485 ｜ 串行通信接口标准（EIA）
+SPC ｜ Statistical Process Control ｜ 统计过程控制
+OEE ｜ Overall Equipment Effectiveness ｜ 设备综合效率（公式见第三部分）
+TPM ｜ Total Productive Maintenance ｜ 全员生产维护
+DPM ｜ Direct Part Marking ｜ 直接零部件标识
+PM  ｜ Predictive Maintenance ｜ 预测性维护
+IMDF ｜ Intelligent Maintenance Decision Framework（语境）｜ 智能维护决策框架（书中工业案例语境）
+
+【十四、标准化组织、标准与图书出版】
+
+ISO ｜ International Organization for Standardization ｜ 国际标准化组织（书中译International Standard Organization）
+IEC ｜ International Electrotechnical Commission ｜ 国际电工委员会
+IEEE ｜ Institute of Electrical and Electronics Engineers ｜ 电气与电子工程师学会（IEEE 802协议族）
+ITU ｜ International Telecommunication Union ｜ 国际电信联盟（ITU-T为电信标准化部，SG20物联网研究组）
+ISACA ｜ Information Systems Audit and Control Association ｜ 国际信息系统审计协会（1969年成立，编制COBIT）
+CAS ｜ China Association for Standardization ｜ 中国标准化协会
+SAC ｜ Standardization Administration of China ｜ 国家标准化管理委员会
+BSI ｜ British Standards Institution ｜ 英国标准协会
+APQC ｜ American Productivity & Quality Center ｜ 美国生产力与质量中心（流程分类框架PCF）
+OECD ｜ Organisation for Economic Co-operation and Development ｜ 经济合作与发展组织
+IMF ｜ International Monetary Fund ｜ 国际货币基金组织（IT审计定义引用机构）
+GB  ｜ Guobiao（国标汉语拼音缩写）｜ 中华人民共和国国家标准（强制性）；GB/T＝推荐性国家标准；GB/Z＝指导性技术文件
+ISBN ｜ International Standard Book Number ｜ 国际标准书号
+CIP ｜ Cataloguing in Publication ｜ 图书在版编目
+FDIS ｜ Final Draft International Standard ｜ 国际标准最终草案（ISO/IEC标准制定阶段）
+ISO 9000 ｜ ISO 9000 Family ｜ ISO 9000族质量管理体系标准
+ISO/IEC 17788 ｜ （标准编号）｜ 云计算术语标准（对应GB/T 32400—2015）
+ISO/IEC 11179 ｜ （标准编号）｜ 信息技术—元数据注册标准
+
+【十五、书中常见计量单位与其他】
+
+KB/MB/GB/TB/PB ｜ Kilo/Mega/Giga/Tera/Peta Byte ｜ 存储容量单位（1GB=1024MB）
+bit/s(bps)、Kbps、Mbps、Gbps ｜ bits per second ｜ 传输速率单位（比特/秒）
+AIOps等Ops类见第一部分 ｜ — ｜ —
+注：书中还出现大量工具/产品名称（非缩写性质），如Jenkins、Ansible、SaltStack、
+Zabbix、禅道、Jira、PingCode、LoadRunner、Selenium、Git/GitHub/GitLab、
+Docker、Kubernetes、OpenStack、CloudStack、TiDB、Redis、Memcached、MongoDB、
+Cassandra、HBase、Spark、Flink、Presto、ClickHouse、TensorFlow、PowerBI、
+PyCharm、Eclipse、Visual Studio、ServiceDesk Plus、ServiceHot、TongWeb等，
+此处不逐一展开。
+
+────────────────────────────────────────────────────────────────────
+第三部分　涉及计算公式的缩写（重点掌握）
+────────────────────────────────────────────────────────────────────
+
+一、可用性指标（第12章 信息系统服务管理·表12-2，教材第351页）
+
+1. MTBF（平均无故障时间，Mean Time Between Failure）
+   ▍含义：从一次事件中恢复到下一次事件发生之间的平均间隔时间，也称正常运行时间。
+   ▍公式：MTBF ＝ 系统运行时间 ÷ 系统在运行时间内的故障次数
+   ▍说明：平均无故障时间越长，系统的可靠性越高。
+
+2. MTTR（平均故障修复时间，Mean Time To Repair）
+   ▍含义：故障发生和服务恢复之间的平均时间，是检测时间与解决时间之和，也称宕机时间。
+   ▍公式：MTTR ＝ 系统故障耗时 ÷ 故障次数
+   ▍说明：平均故障修复时间越短，表示易恢复性越好。
+
+3. MTBSI（平均故障间隔，Mean Time Between System Incidents）
+   ▍含义：两次相邻事件（故障）之间的间隔时间。
+   ▍公式：MTBSI ＝ MTBF ＋ MTTR
+         （平均故障间隔 ＝ 平均无故障时间 ＋ 平均故障修复时间）
+   ▍说明：平均故障间隔越长，表示可靠性越高。
+
+4. 系统可用性（Availability，教材以MTBF/MTTR给出，延伸常用公式）
+   ▍公式：可用度 A ＝ MTBF ÷ (MTBF ＋ MTTR) × 100%
+   ▍说明：行业常说的"两个9（99%）""三个9（99.9%）""四个9（99.99%）"即由此换算
+     为全年停机时间（如99.9%≈全年停机8.76小时）。
+
+二、数据中心能效指标（第6章 数据中心规划）
+
+5. PUE（电源使用效率，Power Usage Effectiveness）
+   ▍含义：评价数据中心能源效率的指标，是数据中心消耗的所有能源与IT负载使用的能源之比。
+   ▍公式：PUE ＝ 数据中心的总用电量(Total Facility Power) ÷ IT设备的总用电量(IT Equipment Power)
+   ▍说明：PUE的值越接近1，表示数据中心的绿色化程度越高。
+
+三、设备管理指标（智能制造章节）
+
+6. OEE（设备综合效率，Overall Equipment Effectiveness）
+   ▍含义：表现机器实际生产能力相对于理论产能的比率，由时间稼动率、性能效率、合格率
+     三个关键要素组成。
+   ▍公式：OEE ＝ 时间稼动率 × 性能效率 × 合格率
+   ▍说明：通过分析设备有效利用时间，降低停机、待料、空转、降速等带来的损失。
+
+四、项目/服务财务指标（第12章 信息系统服务管理·服务成本与效益，教材第376~378页）
+
+7. ROI（投资回报率，Return On Investment）
+   ▍含义：组织通过投资项目而返回的价值，即从一项投资活动中得到的经济回报。
+   ▍公式：项目投资回报率 ＝ 项目利润 ÷ 项目投资总额 × 100%
+   ▍例：某运维服务项目投资总额100万元，净利润35万元，则ROI＝35/100×100%＝35%。
+
+8. 投入产出比
+   ▍公式：投入产出比 ＝ 项目投资总额 ∶ 项目总收入
+   ▍例：投资总额120万元，项目总收入160万元，投入产出比＝120/160＝1∶1.33。
+
+9. 单位人均产出
+   ▍含义：一定周期内项目或组织内人均产出的净利润水平。
+   ▍公式：单位人均产出 ＝ 净利润总额 ÷ 人员数量
+   ▍例：某组织净利润100万元、员工20人，单位人均产出＝100万/20人＝5万元/人。
+
+10. 项目净产出
+   ▍含义：项目的净利润产出总额（收入扣除人员、硬件、软件、场地、第三方支持等所有开支）。
+   ▍公式：项目净产出 ＝ 项目总收入 － 各项开支总和
+
+11. NPV（净现值，Net Present Value）△教材列举的财务测量指标之一
+   ▍通用公式：NPV ＝ Σ[第t年净现金流量 ÷ (1＋r)^t] － 初始投资额　（r为折现率）
+   ▍判据：NPV＞0 项目可行。
+
+12. IRR（内部报酬率，Internal Rate of Return）△教材列举的财务测量指标之一
+   ▍含义：使项目净现值NPV＝0时所对应的折现率。
+   ▍判据：IRR＞基准收益率（资本成本）项目可行。
+
+13. PBP（投资回收期，Pay Back Period）△教材列举的财务测量指标之一
+   ▍通用公式：静态投资回收期 ＝ 初始投资额 ÷ 年均净现金流量
+   ▍说明：回收期越短，项目流动性风险越小。
+
+14. BCR（效益成本比率，Benefit Cost Ratio）△教材列举的财务测量指标之一
+   ▍通用公式：BCR ＝ 效益现值总额 ÷ 成本现值总额
+   ▍判据：BCR＞1 项目可行。
+
+五、服务台（服务运营）关键测量指标（第12章·表12-24）
+
+15. 接听率
+   ▍公式：接听率 ＝ 服务台人员响应的电话总数量 ÷ 用户呼叫服务台的总数量 × 100%
+
+16. 派单准确率
+   ▍公式：派单准确率 ＝ 服务台人员首次派单得到解决的事件或服务请求总数量
+     ÷ 事件或服务请求总数量 × 100%
+
+17. 录单率
+   ▍公式：录单率 ＝ 接收用户呼叫并做记录的事件或服务请求总数量
+     ÷ 服务台接到的所有用户呼叫总数量 × 100%
+
+18. 平均通话时间
+   ▍公式：平均通话时间 ＝ 用户呼叫持续总时间 ÷ 事件或服务请求总数量
+
+19. SLA达成率（服务级别管理考核指标，教材提到"SLA完成情况、达成率"考核）
+   ▍通用公式：SLA达成率 ＝ 达成SLA目标的（服务请求/事件）数量 ÷ 总（服务请求/事件）数量 × 100%
+
+六、人员招聘测评（第13章 人员管理，加权评分法）
+
+20. 加权总分（补偿性原则示例）
+   ▍公式：申请人总分 ＝ Σ(各测评因素得分 × 对应权重)
+   ▍书中示例：未来工作绩效预测值 ＝ 0.6 ＋ 0.4×工龄 ＋ 0.3×IQ成绩 ＋ 0.5×学历分值
+
+七、其他与度量相关的缩写提示
+
+21. KPI（关键绩效指标）：绩效指标计算方法由系统规划与管理师根据数据性质设置关键
+    参数及计算公式，如工程师工单量、平均响应时间、平均解决时间、现场支持解决率等。
+22. MTTF（平均失效前时间，Mean Time To Failure）：不可修复系统的可靠性指标，
+    MTTF＝系统总运行时间÷故障次数；可修复系统用MTBF。（教材第2版正文以
+    MTBF/MTTR/MTBSI为可用性指标，MTTF为延伸知识点）
+23. TCO（总拥有成本，Total Cost of Ownership）：采购成本＋运维成本＋培训管理成本等
+    全生命周期成本之和。（通用概念）
+
+────────────────────────────────────────────────────────────────────
+附：OCR识别校正对照表（原书扫描件常见识别错误 → 正确拼写）
+────────────────────────────────────────────────────────────────────
+Aces → Access        Alication/Aprox → Application
+lnferface/Inferface → Interface      Busines → Business
+Suces → Success      Comon → Common  Cormputer → Computer
+Adres → Address      Asisted → Assisted   Tols → Tools
+Tuneling → Tunneling Pasive → Passive  Sesjon → Session
+Planing → Planning   Seript → Script   Smal → Small
+Interconection → Interconnection  Betwen → Between
+Conunication → Communication  Perfomance → Performance
+Efectivenes → Effectiveness  Terminsl → Terminal
+说明：本表第二部分各词条的英文全称均已按正确拼写给出，可放心记忆。
+
+════════════════════════════════════════════════════════════════════
+                        —— 全文完 ——
+   依据：《系统规划与管理师教程（第2版）》，清华大学出版社，2025.1
+   整理方式：PDF全文提取＋正则模式匹配＋人工校对（共799页）
+════════════════════════════════════════════════════════════════════
